@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": " شيبسي لايز 150جم ",
+        "img": "/image-api/product1.png",
+        "quantity": 5 ,
+        "price":7.50 ,
+        "kcal": 2001 ,
+        "categoryId": 1 ,
+        "categoryName": "بيتزا"
+    },
+    {
+        "id": 2,
+        "title": "سر عصير تفاح 250مل ",
+        "img": "/image-api/product2.png",
+        "quantity": 5 ,
+        "price":7.50 ,
+        "kcal": 2002 ,
+        "categoryId": 2 ,
+        "categoryName": "سندوتشات"
+    },
+    {
+        "id": 3,
+        "title": " شيبسي لايز 150جم ",
+        "img": "/image-api/product3.png",
+        "quantity": 5 ,
+        "price":7.50 ,
+        "kcal": 2003 ,
+        "categoryId": 3 ,
+        "categoryName": "مشروبات"
+    },
+    {
+        "id": 4,
+        "title": " شيبسي لايز 150جم ",
+        "img": "/image-api/product4.png",
+        "quantity": 5 ,
+        "price":7.50 ,
+        "kcal": 2001 ,
+        "categoryId": 1 ,
+        "categoryName": "بيتزا"
+    },
+    {
+        "id": 5,
+        "title": " عصير تفاح 250مل ",
+        "img": "/image-api/product5.png",
+        "quantity": 5 ,
+        "price":7.50 ,
+        "kcal": 2003 ,
+        "categoryId": 3 ,
+        "categoryName": "مشروبات"
+    },
+    {
+        "id": 6,
+        "title": " شيبسي لايز 150جم ",
+        "img": "/image-api/product6.png",
+        "quantity": 5 ,
+        "price":7.50 ,
+        "kcal": 2001 ,
+        "categoryId": 1 ,
+        "categoryName": "بيتزا"
+    }
+]

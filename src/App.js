@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { BrowserRouter as Router, Routes , Route } from "react-router-dom";
+import React , { useContext} from 'react';
+import Home from './pages/home/Home'
+import PreOrders from './pages/preOrders/PreOrders'
+import FixedMenu from './components/fixedMenu/FixedMenu'
+import MenuSection from './components/menuSection/MenuSection'
+import OverlayMenu from './components/OverlayMenu/OverlayMenu'
+import {Context} from './context'
+
+
 
 function App() {
+
+  const { open } = useContext(Context);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        { open ? <OverlayMenu /> : null }
+        <MenuSection />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/preOrders" element={<PreOrders />} />
+        </Routes>
+        <FixedMenu />
+      </div>
+    </Router>
   );
 }
 

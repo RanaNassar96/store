@@ -1,0 +1,26 @@
+.category-name{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 5px 12px;
+    min-height: 100%;
+    cursor: pointer;
+}
+.category-name .box-p{
+    color: #0FA59A;
+    font-size: 15px;
+    font-family: SSTArabicMedium;
+    margin-bottom: 0;
+}
+.category-name img{
+    margin-left: 10px;
+}
+.category-name.active{
+    background-color: #0FA59A;
+}
+.category-name.active .box-p{
+    color: #FFFFFF;
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": " عصير برتقال 250مل ",
+        "img": "/image-api/mini-pro2.png",
+        "quantity": 5 
+    },
+    {
+        "id": 2,
+        "title": "شيبسي شطة و ليمون 150جرام",
+        "img": "/image-api/mini-pro1.png",
+        "quantity": 10
+    },
+    {
+        "id": 3,
+        "title": "اوريو علبة 5 قطع",
+        "img": "/image-api/mini-pro3.png",
+        "quantity": 8
+    }
+]

@@ -1,0 +1,20 @@
+.tags-box{
+    display: inline-flex;
+    background-color: #FFFFFF;
+    border-radius: 17px;
+    box-shadow: 0 4px 6px 1px rgba(0 , 0, 0 , .16);
+    margin-left: 9px;
+    margin-bottom: 7px;
+    padding: 2px 10px 2px 2px ;
+}
+.tags-box .box-p{
+    color: #818181;
+    font-size: 13px;
+    font-family: SSTArabicMedium;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.tags-box .span-del{
+    cursor: pointer;
+    margin-top: -3px;
+}

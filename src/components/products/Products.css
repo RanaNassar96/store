@@ -1,0 +1,6 @@
+.main-gird{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5.5px;
+    margin-left: -5.5px;
+}

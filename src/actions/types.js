@@ -1,0 +1,12 @@
+export const GET_PRODUCTS = 'GET_PRODUCTS';
+export const FILTER_PRODUCTS = 'FILTER_PRODUCTS';
+export const SEARCH_PRODUCTS = 'SEARCH_PRODUCTS';
+
+export const GET_USERS = 'GET_USERS';
+export const SEARCH_USERS = 'SEARCH_USERS';
+export const DELETE_USERS = 'DELETE_USERS'
+export const DELETE_USERS_ORDERS ="DELETE_USERS_ORDERS";
+
+
+export const GET_INCOMING = 'GET_INCOMING';
+export const EDIT_INCOMING = 'EDIT_INCOMING';

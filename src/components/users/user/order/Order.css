@@ -1,0 +1,61 @@
+
+.mini-pro{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    display: flex;
+    padding: 14px 8px;
+    position: relative;
+}
+.mini-pro .pro-img{
+    margin-left: 10px;
+    min-width: 31px;
+}
+.mini-pro .pro-img img{
+    border-radius: 10px;
+    max-width: 31px;
+}
+.mini-pro .pro-text{
+    flex-grow: 1;
+}
+.mini-pro .title-h{
+    color: #363636;
+    font-size: 13px;
+    font-family: SSTArabicMedium;
+    margin-bottom: 10px;
+}
+.mini-pro .box{
+    display: flex;
+    justify-content: space-between;
+}
+.mini-pro .single-price{
+    color: #0FA59A;
+    font-size: 12px;
+    font-family: SSTArabicMedium;
+    margin-bottom: 0;
+}
+.mini-pro .single-price .span-price{
+    margin-bottom: 0;
+    font-family: SSTArabicBold;
+    font-size: 15px;
+}
+.mini-pro .single-price .span-count{
+    font-size: 14px;
+}
+.mini-pro .total-price{
+    color: #242424;
+    font-size: 12px;
+    font-family: SSTArabicMedium;
+    margin-bottom: 0;
+}
+.mini-pro .total-price .span-price{
+    margin-bottom: 0;
+    font-family: SSTArabicBold;
+    font-size: 15px;
+}
+.mini-pro .span-del{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    cursor: pointer;
+}

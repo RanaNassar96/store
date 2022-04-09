@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "بيتزا",
+      "img": "/image-api/pizza-slice.svg"
+    },
+    {
+      "id": 2,
+      "title": "سندوتشات",
+      "img": "/image-api/hamburger.svg"
+    },
+    {
+      "id": 3,
+      "title": "مشروبات",
+      "img": "/image-api/coffee-cup.svg"
+    }
+]

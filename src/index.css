@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: SSTArabicMedium;
+  src: url(./assets/fonts/SSTArabicMedium.ttf);
+}
+@font-face {
+  font-family: SSTArabicBold;
+  src: url(./assets/fonts/SSTArabicBold.ttf);
+}
+@font-face {
+  font-family: SSTArabicRoman;
+  src: url(./assets/fonts/SSTArabicRoman.ttf);
+}
+
+.main-content {
+  display: flex;
+  min-height: 100vh;
+}
+.aside-section {
+  width: 295px;
+  background-color: #13A69A;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 84px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: auto;
+}
+.content-section {
+  flex-grow: 1;
+  padding: 18px 16px 84px 16px;
+  max-width: calc(100% - 295px);
+  background-color: #E9EBEF;
+}
+body{
+  background-color: #E9EBEF;
+}
+@media(max-width:767px){
+  .aside-section {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    height: 100%;
+    box-shadow: -7px 0px 16px 2px rgb(0 0 0 / 13%);
+    transition: all .5s ease-in-out;
+    overflow: auto;
+    left: -400px;
+    padding-bottom: 65px;
+  }
+  .content-section {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+    padding-bottom: 65px;
+  }
+  .open-menu {
+    left: 0 !important;
+  }
+}
